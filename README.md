@@ -23,6 +23,7 @@ If your OS is not listed, please help us fill out the table, or submit a request
 ```
 
 ## Running printall
+This will print generic output regarding each redis event on the redis instance @ 127.0.0.1:6379.
 ```
 ./printall.dbg 127.0.0.1 6379
 ```
@@ -32,6 +33,7 @@ To select another DB:
 ```
 
 ## Running events
+This will print more processed output regarding specific redis events on the redis instance @ 127.0.0.1:6379.
 ```
 ./events.dbg 172.17.0.1 6379
 ```
