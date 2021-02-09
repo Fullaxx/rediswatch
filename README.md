@@ -1,3 +1,6 @@
+
+[![Build Status](https://travis-ci.com/Fullaxx/rediswatch.svg?branch=master)](https://travis-ci.com/Fullaxx/rediswatch)
+
 # rediswatch
 A simple utility to watch redis activity in real-time using psubscribe
 
