@@ -11,6 +11,6 @@ compiler:
 addons:
   apt:
     packages:
-      - hiredis-devel
+      - libhiredis-dev
 script:
   - ./compile.sh
