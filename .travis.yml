@@ -12,5 +12,6 @@ addons:
   apt:
     packages:
       - libhiredis-dev
+      - libevent-dev
 script:
   - ./compile.sh
