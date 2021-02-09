@@ -13,9 +13,9 @@ If your OS is not listed, please help us fill out the table, or submit a request
 | OS     | Commands (as root)                                                               |
 | ------ | -------------------------------------------------------------------------------- |
 | CentOS | `yum install -y epel-release; yum install -y gcc hiredis-devel libevent-devel`   |
-| Debian | `apt update; apt install build-essential libhiredis-dev libevent-dev`            |
+| Debian | `apt update; apt install -y build-essential libhiredis-dev libevent-dev`         |
 | Fedora | `yum install -y gcc hiredis-devel libevent-devel`                                |
-| Ubuntu | `apt update; apt install build-essential libhiredis-dev libevent-dev`            |
+| Ubuntu | `apt update; apt install -y build-essential libhiredis-dev libevent-dev`         |
 
 ## Compiling
 ```
