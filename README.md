@@ -2,11 +2,9 @@
 [![Build Status](https://travis-ci.com/Fullaxx/rediswatch.svg?branch=master)](https://travis-ci.com/Fullaxx/rediswatch)
 
 # rediswatch
-A simple utility to watch redis activity in real-time using psubscribe
-
-## Software
-[redis](https://redis.io/) \
-[hiredis](https://github.com/redis/hiredis)
+A simple utility to watch redis activity in real-time using psubscribe build using:
+* [redis](https://redis.io/)
+* [hiredis](https://github.com/redis/hiredis)
 
 ## Requirements
 First we need to make sure we have all the appropriate libraries. \
