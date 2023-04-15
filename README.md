@@ -13,6 +13,7 @@ If your OS is not listed, please help us fill out the table, or submit a request
 
 | OS     | Commands (as root)                                                               |
 | ------ | -------------------------------------------------------------------------------- |
+| Alpine | `apk add build-base hiredis-dev libevent-dev`                                    |
 | CentOS | `yum install -y epel-release; yum install -y gcc hiredis-devel libevent-devel`   |
 | Debian | `apt update; apt install -y build-essential libhiredis-dev libevent-dev`         |
 | Fedora | `yum install -y gcc hiredis-devel libevent-devel`                                |
